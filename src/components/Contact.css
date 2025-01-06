@@ -1,0 +1,34 @@
+.contact {
+    background-color: #f0f0f0; /* Example background color */
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px; /* Add some spacing from above content */
+}
+
+.contact h2 {
+    margin-top: 0; /* Remove default top margin */
+}
+
+.contact-info {
+    display: flex; /* Arrange contact links horizontally */
+    flex-direction: column; /* Stack vertically on smaller screens */
+    align-items: center; /* Center horizontally */
+    gap: 10px; /* Add spacing between links */
+}
+
+.contact-link {
+    text-decoration: none; /* Remove default underline */
+    color: #333; /* Example link color */
+}
+
+.contact-link:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Media query for larger screens (adjust breakpoint as needed) */
+@media (min-width: 768px) {
+    .contact-info {
+        flex-direction: row; /* Arrange horizontally on larger screens */
+        justify-content: space-around; /* Distribute links evenly */
+    }
+}

@@ -1,0 +1,31 @@
+.about {
+    padding: 20px;
+    text-align: left; /* Align text to the left */
+}
+
+.about h2 {
+    margin-top: 0;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-section {
+    margin-bottom: 20px;
+}
+
+.about-section h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.skills-list {
+    list-style-type: disc; /* Use bullet points */
+    padding-left: 20px;
+}
+
+.skills-list li {
+    margin-bottom: 5px;
+}
